@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Cours css CheckPoint
+    </title>
+    <link rel="stylesheet" href="Css/Checkpoint.css">
+</head>
+
+<body>
+    <center>
+
+
+    
+        <ul class="ListeCours">
+                <img src="Logo.png" height="50px" width="50px" id="logo">
+                
+            <li > <a href="index.html" class="navlinks">Home</a> </li>
+            <li > <a href="Contact.html"class="navlinks">Contact</a></li>
+            <li > <a href="Cours.html" class="navlinks" >courses</a></li>
+        
+
+        </ul>
+        <div id="image">
+            <h1>Courses</h1>
+        </div>
+        <table>
+            <tr>
+                <td> <img src="Capture1.png" alt=""></td>
+                <td> <img src="Capture2.png" alt=""></td>
+                <td> <img src="Capture3.png" alt=""></td>
+            </tr>
+            <tr>
+                <td> <img src="Capture4.png" alt=""></td>
+                <td> <img src="Capture5.png" alt=""></td>
+                <td> <img src="Capture6.png" alt=""></td>
+            </tr>
+            <tr>
+                <td> <img src="Capture7.png" alt=""></td>
+                <td> <img src="Capture8.png" alt=""></td>
+                <td> <img src="Capture9.png" alt=""></td>
+            </tr>
+        </table>
+        <div style="align-content: center" class="feedback">
+            <h2>FeedBack</h2>
+            <button class="feedback" id="bold">B</button>
+            <button class="feedback" id="italic">I</button>
+            <button class="feedback" id="aligner">Underline</button>
+            <select id="fontsize" class="feedback" onchange="sizeHandle()">
+                <option value="20px">20px</option>
+                <option value="40px">40px</option>
+                <option value="60px">60px</option>
+            </select>
+
+
+            <select  id="text" class="feedback" onchange="textstyle()">
+                <option value="Arial">Arial</option>
+                <option value="Verduna">Verduna</option>
+                <option value="Geneva">Geneva</option>
+            </select>
+            <br>
+            <textarea id="textarea">
+
+            </textarea>
+        </div>
+
+        <button>Submit</button>
+<div>
+     
+   
+        
+    </center>
+</body>
+<script src="Js/Main.js"></script>
+</html>
